@@ -49,6 +49,7 @@
 		F905F6401F67E21900B1034D /* S2312UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = S2312UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F905F6441F67E21900B1034D /* S2312UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S2312UITests.swift; sourceTree = "<group>"; };
 		F905F6461F67E21900B1034D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F905F6521F67E51A00B1034D /* C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +107,7 @@
 				F905F62D1F67E21900B1034D /* LaunchScreen.storyboard */,
 				F905F6301F67E21900B1034D /* Info.plist */,
 				F905F6281F67E21900B1034D /* S2312.xcdatamodeld */,
+				F905F6521F67E51A00B1034D /* C.h */,
 			);
 			path = S2312;
 			sourceTree = "<group>";
@@ -418,6 +420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zittx.S2312;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = S2312/C.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -430,6 +433,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zittx.S2312;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = S2312/C.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
